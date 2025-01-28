@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: white;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        form {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 8px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+        }
+
+        ::placeholder {
+            color: lightgray;
+        }
+
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+<form method="POST" action="validate">
+    <h2>Login Page</h2>
+    <label for="uname">Username:</label>
+    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+    <input type="submit" value="Login">
+</form>
+</body>
+</html>

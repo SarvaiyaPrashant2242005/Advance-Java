@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #result {
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>EMI Calculator</h2>
+    <form action="Calculation" method="post">
+        <label for="principal">Principal Amount (₹):</label>
+        <input type="number" name="principal" id="principal" required placeholder="Enter Principal Amount">
+
+        <label for="rate">Annual Interest Rate (%):</label>
+        <input type="number" name="rate" id="rate" step="0.01" required placeholder="Enter Interest Rate">
+
+        <label for="duration">Duration (Months):</label>
+        <input type="number" name="duration" id="duration" required placeholder="Enter Duration in Months">
+
+        <button type="submit">Calculate EMI</button>
+    </form>
+</div>
+
+</body>
+</html>
