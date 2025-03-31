@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <!-- New email entries will be added here -->
+</users>
+
+<user>
+	<email>prashanthere90@gmail.com</email>
+</user>
+<user>
+	<username>Prashant</username>
+	<email>prashanthere90@gmail.com</email>
+</user>
+
+<user>
+	<username>Aryan </username>
+	<email>aryan@gmail.com</email>
+</user>
+
+<user>
+	<username>Vivek</username>
+	<email>vivel@gmail.com</email>
+</user>
