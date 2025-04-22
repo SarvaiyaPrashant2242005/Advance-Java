@@ -1,4 +1,4 @@
-package com.blogapp;
+package com.blogapp.dao;
 
 import com.blogapp.model.Blog;
 import com.blogapp.util.DBConnection;
@@ -19,23 +19,29 @@ public class BlogDAO {
         }
     }
 
-    public List<Blog> getAllBlogs() throws SQLException {
-        List<Blog> blogs = new ArrayList<>();
-        String sql = "SELECT * FROM blogs ORDER BY published_at DESC";
-        try (Connection conn = DBConnection.getConnection();
-             Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
-            while (rs.next()) {
-                Blog blog = new Blog(
-                        rs.getInt("id"),
-                        rs.getString("title"),
-                        rs.getString("content"),
-                        rs.getString("username"),
-                        rs.getTimestamp("published_at")
-                );
-                blogs.add(blog);
+
+
+        public List<Blog> getAllBlogs() throws SQLException {
+            List<Blog> blogs = new ArrayList<>();
+            String sql = "SELECT id, title, content, username, published_at FROM blogs ORDER BY published_at DESC";
+
+            try (Connection conn = DBConnection.getConnection();
+                 PreparedStatement ps = conn.prepareStatement(sql);
+                 ResultSet rs = ps.executeQuery()) {
+                while (rs.next()) {
+                    Blog blog = new Blog(
+                            rs.getInt("id"),
+                            rs.getString("title"),
+                            rs.getString("content"),
+                            rs.getString("username"),
+                            rs.getTimestamp("published_at")
+                    );
+                    blogs.add(blog);
+                }
             }
+            System.out.println("Blogs fetched from DB: " + blogs.size()); // Debugging
+            return blogs;
         }
-        return blogs;
     }
-}
+
+

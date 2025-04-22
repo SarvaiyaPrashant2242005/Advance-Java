@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2455474b-09a6-4565-b48b-216b956a8c8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/dao/ParkingDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/dao/VehicleTypeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/model/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/model/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/servlets/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/servlets/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/servlets/ParkingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/servlets/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/servlets/VehicleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/java/com/parkingManagement/util/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/EditParking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/Parking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/SignIn-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/SignUp-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Long Hour Coding/Parking_Management_System/src/main/webapp/vehicles.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/src/main/webapp/Page1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/src/main/webapp/Page2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_11/JSP_Forward/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_5/Login/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/src/main/java/com/sessionmanagement/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/src/main/java/com/sessionmanagement/SessionCounterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/src/main/java/com/sessionmanagement/SessionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_6/Session_Management/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/src/main/webapp/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Practicals/Practical_7/Calculator_JSP/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Task_3/Login/src/main/webapp/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Advance Java.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Advance Java.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Practicals/Practical_4/src/main/java/com/prashantsarvaiya/DBTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Practicals/Practical_4/src/main/java/com/prashantsarvaiya/DBTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Practicals/Practical_5/~$200133003_practical_5_aj.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/JSP/JSP_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/JSP/JSP_test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/User_Management_System/src/main/java/org/example/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/src/main/java/com/prashantsarvaiya/firstpro/FirstproApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/firstpro/firstpro/src/test/java/com/prashantsarvaiya/firstpro/FirstproApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/dao/BlogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/dao/BlogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/servlet/AddBlogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/servlet/AddBlogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/servlet/BlogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/servlet/BlogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/servlet/ViewBlogsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/servlet/ViewBlogsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/util/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/java/com/blogapp/util/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/webapp/add-blog.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/webapp/add-blog.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/webapp/view-blogs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Task_2/Blog_Management/src/main/webapp/view-blogs.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2vf2WhP4ZAen5nuoyyGVC0vaxPF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SEMESTER 6/Advance-Java/Tasks/Task_4/Task_4_Hibernate"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2455474b-09a6-4565-b48b-216b956a8c8f" name="Changes" comment="" />
+      <created>1744521842787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744521842787</updated>
+    </task>
+    <servers />
+  </component>
+</project>

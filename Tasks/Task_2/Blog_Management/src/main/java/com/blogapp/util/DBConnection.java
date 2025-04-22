@@ -1,20 +1,23 @@
-package com.blogapp;
+package com.blogapp.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/blogs";
-    private static final String USER = "root";
-    private static final String PASSWORD = "";
+    private static final String URL = "jdbc:mysql://localhost:3306/aj_practical";
+    private static final String USER = "root"; // Change if needed
+    private static final String PASSWORD = ""; // Change if needed
+
+    static {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver"); // Load MySQL driver
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException("MySQL Driver not found!", e);
+        }
+    }
 
     public static Connection getConnection() throws SQLException {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            throw new SQLException("Database Driver Not Found!");
-        }
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
